@@ -1,0 +1,13 @@
+[package]
+name = "thread_pool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "*"
+
+[[bench]]
+name = "task_execution"
+harness = false
