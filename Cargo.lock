@@ -354,6 +354,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "scoped-thread-pool-std"
+version = "0.1.0"
+dependencies = [
+ "criterion",
+]
+
+[[package]]
 name = "serde"
 version = "1.0.219"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -394,13 +401,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "thread_pool"
-version = "0.1.0"
-dependencies = [
- "criterion",
 ]
 
 [[package]]

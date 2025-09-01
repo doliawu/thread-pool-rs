@@ -1,6 +1,7 @@
-use criterion::{Criterion, criterion_group, criterion_main};
 use std::thread;
-use thread_pool::ThreadPool;
+
+use criterion::{Criterion, criterion_group, criterion_main};
+use scoped_thread_pool_std::ThreadPool;
 
 const N_THREADS: usize = 16;
 const USE_THREAD_POOL: bool = true;

@@ -1,5 +1,5 @@
 [package]
-name = "thread_pool"
+name = "scoped-thread-pool-std"
 version = "0.1.0"
 edition = "2024"
 description = "A thread pool with scope and join handle support"
